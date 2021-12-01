@@ -1,0 +1,75 @@
+<div class="row">
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-header">
+        <div class="icon icon-warning">
+          <span class="material-icons">equalizer</span>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">
+          <%= customercount.length %>/<%= milkmancount.length %>
+        </h3>
+      </div>
+      <div class="card-footer">
+        <div class="stats">
+          <i class="material-icons text-info">person</i>
+          <a>customer/milkman</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-header">
+        <div class="icon icon-success">
+          <span class="material-icons"> attach_money </span>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">
+          <%= cow[0].todaymilkratecow %>/<%= buffalo[0].todaymilkratebuffalo %>
+        </h3>
+      </div>
+      <div class="card-footer">
+        <div class="stats">
+          <i class="material-icons">local_offer</i> Cow/Buffalo Milkrate(L)
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-header">
+        <div class="icon icon-success">
+          <span class="material-icons"> trending_up </span>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title"><%= selled%></h3>
+      </div>
+      <div class="card-footer">
+        <div class="stats">
+          <i class="material-icons">update</i> Total Milk Selled(L)
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-header">
+        <div class="icon icon-info">
+          <span class="material-icons"> trending_up </span>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title"><%= gained %></h3>
+      </div>
+      <div class="card-footer">
+        <div class="stats">
+          <i class="material-icons">update</i> Total Milk Stored(L)
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
